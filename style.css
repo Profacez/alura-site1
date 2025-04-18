@@ -53,7 +53,7 @@ aside {
     list-style-type:none;
 }
 
-footer{
+#rodape {
     background-color: black;
     color: #F2FFFC;
     padding:10px;
@@ -76,4 +76,23 @@ em {
 
 strong {
  font-weight: bold;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    font-size: 20px;
+    background-color: #E6E7E8;
+    padding:8px;
+    margin: 16px;
+    display: block;
+    text-align: center;
 }
