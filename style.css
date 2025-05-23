@@ -54,6 +54,8 @@ aside {
     padding:10px;
     text-align: center;
     list-style-type:none;
+    clear:right;
+    box-sizing: border-box;
 }
 
 #rodape {
@@ -105,4 +107,18 @@ article {
 }
 .petrobras{
     float:left;
+}
+
+aside, img {
+    float:right;
+    width: 15%;
+}
+
+main {
+    float:left;
+    width:85%; 
+}
+
+footer {
+  clear:both;
 }
